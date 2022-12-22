@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "serverName": {
+        "value": "mrwinserver66"
+      },
+      "vmSize": {
+        "value": "Standard_D2s_v5"
+      },
+      "virtualNetworkName": {
+        "value": "sk-vnet"
+      },
+      "subnetName": {
+        "value": "default"
+      },
+      "ISSresourceGroup": {
+        "value": "rg-ahwin-sk-gh"
+      },
+      "administratorLogin": {
+        "value": "svc_ahadmin"
+      },
+      "administratorLoginPassword": {
+        "value": "${{ secrets.AZ_SQL_ID_AHW }}"
+      }
+    }
+  }
