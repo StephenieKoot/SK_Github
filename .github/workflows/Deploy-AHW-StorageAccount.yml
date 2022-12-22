@@ -35,4 +35,4 @@ jobs:
             --name AHW-AzureStorageAccount \
             --resource-group rg-ahwin-sk-gh \
             --template-file src/core-templates/ahw/Deploy-AHW-StorageAccount.json \
-            --parameters client-apps/AzureStorageAccountApp/npd/ahw/parameters.json
+            --parameters client-apps/AzureStorageAccountApp1/npd/ahw/parameters.json
